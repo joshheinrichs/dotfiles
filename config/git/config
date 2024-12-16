@@ -1,0 +1,4 @@
+[include]
+	path = config.d/default
+	path = config.d/nvim
+	path = config.d/home
