@@ -11,6 +11,7 @@
     pkgs.fzf
     pkgs.ripgrep
     pkgs.bat
+    pkgs.htop
     pkgs.firefox
     pkgs.vlc
     pkgs.spotify
