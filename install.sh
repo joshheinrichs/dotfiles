@@ -8,3 +8,5 @@ cp -r bashrc.d ~/.bashrc.d
 
 cp gitconfig ~/.gitconfig
 cp -r gitconfig.d ~/.gitconfig.d
+
+cp -r config/atuin ~/.config/atuin
