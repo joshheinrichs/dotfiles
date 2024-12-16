@@ -1,0 +1,3 @@
+[include]
+	path = .gitconfig.d/default
+	path = .gitconfig.d/home

@@ -1,0 +1,14 @@
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
+[alias]
+	co = checkout
+	st = status
+	sw = switch
+[rebase]
+	updateRefs = true
+[merge]
+	ff = no
+[pull]
+	ff = only
