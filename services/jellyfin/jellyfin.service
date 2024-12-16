@@ -1,0 +1,18 @@
+[Service]
+ExecStart=%S/nix/profiles/jellyfin/bin/jellyfin
+PrivateMounts=yes
+PrivateTmp=yes
+# systemd 257
+# PrivatePIDs=yes
+PrivateUsers=yes
+MountAPIVFS=yes
+
+TemporaryFileSystem=/
+BindPaths=%C/%N %E/%N %L/%N %S/%N %t/%N /nix/store %S/nix/profiles/jellyfin
+
+RuntimeDirectory=%N
+StateDirectory=%N
+CacheDirectory=%N
+LogsDirectory=%N
+ConfigurationDirectory=%N
+
