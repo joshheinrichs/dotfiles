@@ -9,6 +9,7 @@
     pkgs.alacritty
     pkgs.zellij
     pkgs.fzf
+    pkgs.zoxide
     pkgs.ripgrep
     pkgs.bat
     pkgs.htop
