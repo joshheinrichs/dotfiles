@@ -16,6 +16,7 @@
     pkgs.firefox
     pkgs.vlc
     pkgs.spotify
+    pkgs.keepassxc
     # wayland screen sharing support
     pkgs.discord-canary
   ];
