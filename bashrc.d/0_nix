@@ -1,2 +1,0 @@
-export PATH="${HOME}/.local/state/nix/profiles/josh/bin:${PATH}"
-export MANPATH="${HOME}/.local/state/nix/profiles/josh/share/man:${MANPATH}"

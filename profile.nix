@@ -1,7 +1,11 @@
 { pkgs ? import <nixpkgs> { config.allowUnfree = true; } }:
 
-{
-  packages = [
+pkgs.buildEnv {
+  name = "dotfiles";
+  paths = with pkgs; [
+    # avoid system packages for the most part
+    pkgs.coreutils
+    pkgs.bash
     pkgs.neovim
     pkgs.git
     pkgs.atuin
@@ -13,6 +17,7 @@
     pkgs.ripgrep
     pkgs.bat
     pkgs.htop
+    # desktop junk
     pkgs.firefox
     pkgs.vlc
     pkgs.spotify
