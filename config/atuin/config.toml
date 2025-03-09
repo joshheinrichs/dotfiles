@@ -1,5 +1,6 @@
 update_check = false
 show_help = false
+filter_mode_shell_up_key_binding = "session"
 # this is enabled by default in atuin's default config, but isn't enabled by
 # default in atuin. no support for drop-ins / includes atm, so we can't easily
 # inherit new defaults.
