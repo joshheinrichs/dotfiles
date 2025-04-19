@@ -11,7 +11,6 @@ pkgs.buildEnv {
     atuin
     bash-preexec
     alacritty
-    zellij
     fzf
     zoxide
     ripgrep
