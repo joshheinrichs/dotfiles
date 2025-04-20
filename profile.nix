@@ -26,6 +26,7 @@ pkgs.buildEnv {
     vlc
     spotify
     keepassxc
+    qbittorrent
     # wayland screen sharing support
     discord-canary
   ]
