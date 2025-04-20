@@ -21,6 +21,7 @@ pkgs.buildEnv {
     parallel
     sd
     delta
+    syncthing
     # desktop junk
     firefox
     vlc
