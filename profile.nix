@@ -16,6 +16,11 @@ pkgs.buildEnv {
     ripgrep
     bat
     htop
+    btop
+    pstree
+    parallel
+    sd
+    delta
     # desktop junk
     firefox
     vlc
@@ -23,5 +28,8 @@ pkgs.buildEnv {
     keepassxc
     # wayland screen sharing support
     discord-canary
+  ]
+  ++ pkgs.lib.optionals (stdenv.isLinux) [
+    lurk
   ];
 }

@@ -2,3 +2,4 @@
 	path = config.d/default
 	path = config.d/nvim
 	path = config.d/home
+	path = config.d/delta
